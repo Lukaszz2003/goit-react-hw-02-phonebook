@@ -18,7 +18,7 @@ const ContactList = ({ filter, contacts, handleDeleteContacts }) => {
               className={s.btn}
               onClick={() => handleDeleteContacts(el.id)}
             >
-              x
+              Delete
             </button>
           </li>
         ))}
